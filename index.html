@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head lang="zh-CN">
+	    <meta charset="utf-8">
+	    <title>XX demo page</title>
+	    <link rel="stylesheet" href="style/jquery.fullPage.css">
+	    <link rel="stylesheet" href="style/bootstrap.min.css">
+	    <link rel="stylesheet" href="style/index.css">
+	</head>
+	<body>
+		<div class="pages">
+            <div class="section page1">
+                <div class="container">
+                    <div class="keep-middle show">
+                        <div class="row show-title">
+                        </div>
+                        <div class="row show-modules">  
+                        </div>
+                    </div>
+                    <div class="row next-page">
+                        <img src="image/next-page.png" class="next-page-img">
+                    </div>
+                </div>
+            </div>
+            <div class="section page2">
+                <div class="container">
+                    <div class="keep-middle features features-out">
+                        <div class="features-img row" id="jqDock">
+                            <img src="image/feature1.png" class="f-img" id="feature1">
+                            <img src="image/feature2.png" class="f-img" id="feature2">
+                            <img src="image/feature3.png" class="f-img" id="feature3">
+                            <img src="image/feature4.png" class="f-img" id="feature4">
+                            <img src="image/feature5.png" class="f-img" id="feature5">
+                        </div>
+                        <div class="features-info default-info features-info-show animate-this">
+                            <div class="row features-info-title">
+                                <p>了解更多特性</p>
+                            </div>
+                            <div class="row features-info-content">
+                                <p>用鼠标指向这些特点来进一步了解XX风险系统的更多独特之处</p>
+                            </div>
+                        </div>
+                        <div class="features-info not-default-info features-info-hide" id="feature1-info">
+                            <div class="row features-info-title">
+                                <p>系统刻画</p>
+                            </div>
+                            <div class="row features-info-content">
+                                <p>通过中间件交互日志，构建系统架构图和物理部署信息，帮助用户快速理解产品线的业务，架构，部署，以及架构和部署是如何支撑业务的。</p>
+                            </div>
+                        </div>
+                        <div class="features-info not-default-info features-info-hide" id="feature2-info">
+                            <div class="row features-info-title" >
+                                <p>性能优化</p>
+                            </div>
+                            <div class="row features-info-content">
+                                <p>针对不同模块和不同机器，通过调用链的时间轴信息，能够直观的反应出性能瓶颈。</p>
+                            </div>
+                        </div>
+                        <div class="features-info not-default-info features-info-hide" id="feature3-info">
+                            <div class="row features-info-title">
+                                <p>风险分析</p>
+                            </div>
+                            <div class="row features-info-content">
+                                <p>通过分析调用链，发现交互问题；通过分析整体架构和部署，发现耦合和依赖问题。</p>
+                            </div>
+                        </div>
+                        <div class="features-info not-default-info features-info-hide" id="feature4-info">
+                            <div class="row features-info-title">
+                                <p>业务监控</p>
+                            </div>
+                            <div class="row features-info-content">
+                                <p>监控整条调用链，比起目前的监控单条日志的方式，更加精准。</p>
+                            </div>
+                        </div>
+                        <div class="features-info not-default-info features-info-hide" id="feature5-info">
+                            <div class="row features-info-title">
+                                <p>问题定位</p>
+                            </div>
+                            <div class="row features-info-content">
+                                <p>一次性获得整条调用链信息，以及调用链关联的业务日志信息，机器负载信息，模块状态信息，帮助用户快速的定位问题。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row next-page">
+                        <img src="image/next-page.png" class="next-page-img">
+                    </div>
+                </div>
+            </div>
+            <div class="section page3">
+                <div class="container">
+                    <div class="keep-middle partner">
+                        <div class="row partner-title">
+                            <p>合作伙伴</p>
+                        </div>
+                        <div class="row partner-links">
+                            <div class="col-xs-3">
+                                <a href="/"  target="_blank">
+                                    <img src="image/waimai.png">
+                                </a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="/" target="_blank">
+                                    <img src="image/nuomi.png">
+                                </a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="/" target="_blank">
+                                    <img src="image/qianbao.png">
+                                </a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="/" target="_blank">
+                                    <img src="image/kuaixing.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jqDock.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
